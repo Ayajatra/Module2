@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMONIC Airlines", "ManageFlightSchedule\AMONIC Airlines.csproj", "{89BCFDEC-1134-4EB0-B0E7-9E02CBA77B25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session2Library", "Session2Library\Session2Library.csproj", "{5503A342-7FCF-4479-A000-4D454AD33FFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{89BCFDEC-1134-4EB0-B0E7-9E02CBA77B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89BCFDEC-1134-4EB0-B0E7-9E02CBA77B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89BCFDEC-1134-4EB0-B0E7-9E02CBA77B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5503A342-7FCF-4479-A000-4D454AD33FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5503A342-7FCF-4479-A000-4D454AD33FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5503A342-7FCF-4479-A000-4D454AD33FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5503A342-7FCF-4479-A000-4D454AD33FFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
