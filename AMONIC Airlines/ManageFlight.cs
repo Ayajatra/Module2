@@ -15,7 +15,7 @@ namespace AMONIC_Airlines
             InitializeComponent();
         }
 
-        private void GetSetGrid()
+        public void GetSetGrid()
         {
             if (!(comboBoxFrom.SelectedValue.ToString() == comboBoxTo.SelectedValue.ToString()) || (comboBoxFrom.SelectedValue.ToString() == "0" && comboBoxTo.SelectedValue.ToString() == "0"))
             {
@@ -109,7 +109,7 @@ namespace AMONIC_Airlines
             comboBoxSort.DataSource = sorts;
         }
 
-        private void GetSetGridColor()
+        public void GetSetGridColor()
         {
             foreach (DataGridViewRow row in dataGridView.Rows)
             {
