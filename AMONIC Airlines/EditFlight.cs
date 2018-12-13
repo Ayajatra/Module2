@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AMONIC_Airlines
 {
-    public partial class Form1 : Form
+    public partial class EditFlight : Form
     {
-        public Form1()
+        public EditFlight()
         {
             InitializeComponent();
         }
