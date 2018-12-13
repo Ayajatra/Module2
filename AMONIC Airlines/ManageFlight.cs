@@ -176,9 +176,14 @@ namespace AMONIC_Airlines
 
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-            EditFlight edit = new EditFlight();
+            int currentID = int.Parse(dataGridView.CurrentCell.OwningRow.Cells["ID"].Value.ToString());
+
+            EditFlight edit = new EditFlight(currentID);
             edit.Owner = this;
             edit.ShowDialog();
+
+            GetSetGrid();
+            GetSetGridColor();
         }
 
         private void buttonImport_Click(object sender, EventArgs e)

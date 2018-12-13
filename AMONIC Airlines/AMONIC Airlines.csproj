@@ -114,6 +114,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EditFlight.resx">
+      <DependentUpon>EditFlight.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ImportFlight.resx">
       <DependentUpon>ImportFlight.cs</DependentUpon>
     </EmbeddedResource>
